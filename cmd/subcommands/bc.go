@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/fatih/structs"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/spf13/cobra"
+	"github.com/theKerosin/gotron-sdk/pkg/address"
+	"github.com/theKerosin/gotron-sdk/pkg/common"
+	"github.com/theKerosin/gotron-sdk/pkg/proto/core"
 )
 
 var ()

@@ -3,9 +3,9 @@ package keys
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec"
-	secp256k1 "github.com/btcsuite/btcd/btcec"
-	"github.com/fbsobreira/gotron-sdk/pkg/keys/hd"
+	"github.com/btcsuite/btcd/btcec/v2"
+	secp256k1 "github.com/btcsuite/btcd/btcec/v2"
+	"github.com/theKerosin/gotron-sdk/pkg/keys/hd"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -20,5 +20,5 @@ func FromMnemonicSeedAndPassphrase(mnemonic, passphrase string, index int) (*sec
 		fmt.Sprintf("44'/195'/0'/0/%d", index),
 	)
 
-	return secp256k1.PrivKeyFromBytes(secp256k1.S256(), private[:])
+	return secp256k1.PrivKeyFromBytes(private[:])
 }

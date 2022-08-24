@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/keystore"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
-	"github.com/fbsobreira/gotron-sdk/pkg/store"
 	"github.com/spf13/cobra"
+	"github.com/theKerosin/gotron-sdk/pkg/address"
+	"github.com/theKerosin/gotron-sdk/pkg/client/transaction"
+	"github.com/theKerosin/gotron-sdk/pkg/common"
+	"github.com/theKerosin/gotron-sdk/pkg/keystore"
+	"github.com/theKerosin/gotron-sdk/pkg/proto/core"
+	"github.com/theKerosin/gotron-sdk/pkg/store"
 )
 
 var (
